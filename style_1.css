@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Raleway:wght@300;400&display=swap');
 
+/* ── Reset & Base ── */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -20,6 +21,7 @@ body {
   cursor: default;
 }
 
+/* Subtle star field */
 body::before {
   content: '';
   position: fixed;
@@ -39,11 +41,12 @@ body::before {
   z-index: 0;
 }
 
+/* ── Header ── */
 header {
   position: relative;
   z-index: 1;
   text-align: center;
-  padding: 6rem 2rem 3rem;
+  padding: 5rem 2rem 2.5rem;
 }
 
 header::before {
@@ -88,74 +91,161 @@ header::after {
   margin: 2.5rem auto 0;
 }
 
-.login-buttons {
+/* ── Card Draw Section ── */
+.card-draw {
   position: relative;
   z-index: 1;
+  text-align: center;
+  padding: 3rem 2rem 5rem;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.card-draw h2 {
+  font-family: 'Cinzel', serif;
+  font-size: clamp(1.2rem, 3vw, 1.6rem);
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  color: #ede9fe;
+  margin-bottom: 0.6rem;
+}
+
+.card-draw-paragraph {
+  font-size: 0.88rem;
+  color: #9d7ec9;
+  letter-spacing: 0.06em;
+  margin-bottom: 2.5rem;
+}
+
+/* ── Card Display ── */
+.card-display {
+  margin: 0 auto 2rem;
+  width: 180px;
+}
+
+.card-face {
+  width: 180px;
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #4c1d95;
+  box-shadow:
+    0 0 30px #7c3aed44,
+    0 0 60px #4c1d9522;
+}
+
+.card-face img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ── Card Info ── */
+.card-info {
+  min-height: 60px;
+  margin-bottom: 2rem;
+}
+
+.card-name {
+  font-family: 'Cinzel', serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  color: #c4b5fd;
+  margin-bottom: 0.5rem;
+}
+
+.card-meaning {
+  font-size: 0.88rem;
+  color: #9d7ec9;
+  line-height: 1.8;
+  letter-spacing: 0.04em;
+}
+
+/* ── Card Controls ── */
+.card-controls {
   display: flex;
-  gap: 1rem;
+  align-items: center;
   justify-content: center;
-  padding: 1.5rem 2rem 0px;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
 .btn {
   font-family: 'Raleway', sans-serif;
-  font-size: 0.78rem;
+  font-size: 0.75rem;
   font-weight: 400;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 0.8rem 2.2rem;
-  border-radius: 10px;
+  padding: 0.75rem 2rem;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
   transition: all 0.3s ease;
-  display: inline-block;
 }
 
-.btn:first-child {
-  background: #9862f5;
+.btn-draw {
+  background: #7c3aed;
   color: #f5f0ff;
   box-shadow: 0 0 24px #7c3aed55;
 }
 
-.btn:last-child {
-  background: transparent;
-  color: #c4b5fd;
-  border: 1px solid #935ee9;
-}
-
-.btn:hover {
+.btn-draw:hover {
   transform: translateY(-2px);
-  opacity: 0.85;
-}
-
-.btn:first-child:hover {
   box-shadow: 0 0 36px #7c3aed88;
 }
 
-.guest-button {
-  position: relative;
-  z-index: 1;
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  padding: 1.5rem 2rem 1rem;
+.btn-reset {
+  background: transparent;
+  color: #c4b5fd;
+  border: 1px solid #5b21b6;
 }
 
-.guest-btn {
-  font-family: 'Raleway', sans-serif;
-  font-size: 0.78rem;
-  font-weight: 400;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 0.8rem 2.2rem;
-  border-radius: 10px;
-  transition: all 0.3s ease;
-  display: inline-block;
-  background: rgb(182, 73, 255, 0.3);
-  color: rgb(222, 221, 223);
-}
-
-.guest-btn:hover {
-  background: rgb(182, 73, 255);
+.btn-reset:hover {
   transform: translateY(-2px);
+  opacity: 0.8;
+}
+
+/* ── Reversed Checkbox ── */
+.reversed-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #9d7ec9;
+  cursor: pointer;
+  user-select: none;
+}
+
+.reversed-checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #5b21b6;
+  border-radius: 2px;
+  background: transparent;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+.reversed-checkbox:checked {
+  background: #7c3aed;
+  border-color: #7c3aed;
+}
+
+.reversed-checkbox:checked::after {
+  content: '✓';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 10px;
+  line-height: 1;
 }

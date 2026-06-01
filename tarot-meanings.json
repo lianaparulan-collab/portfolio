@@ -1,0 +1,707 @@
+{
+  "description": "tarot cards and their meanings upright and reversed, plus a short description",
+  "cards": [
+    {
+      "name": "The Fool",
+      "number": "0",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "upright": "New beginnings, innocence, spontaneity, adventure, taking a leap of faith.",
+      "reversed": "Recklessness, naivety, poor planning, hesitation, foolish risks.",
+      "description": "The Fool symbolizes the start of a journey and embracing the unknown with trust and optimism."
+    },
+    {
+      "name": "The Magician",
+      "number": "1",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "upright": "Manifestation, resourcefulness, inspired action, skill, power.",
+      "reversed": "Manipulation, poor planning, untapped talents, illusion.",
+      "description": "The Magician represents turning ideas into reality through focus, confidence, and action."
+    },
+    {
+      "name": "The High Priestess",
+      "number": "2",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "upright": "Intuition, mystery, inner wisdom, spiritual insight, subconscious knowledge.",
+      "reversed": "Hidden motives, blocked intuition, confusion, secrets revealed.",
+      "description": "The High Priestess encourages trusting your intuition and looking beneath the surface."
+    },
+    {
+      "name": "The Empress",
+      "number": "3",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "upright": "Abundance, nurturing, fertility, creativity, beauty.",
+      "reversed": "Creative block, dependence, smothering, lack of self-care.",
+      "description": "The Empress embodies growth, compassion, and the nurturing of ideas and relationships."
+    },
+    {
+      "name": "The Emperor",
+      "number": "4",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "upright": "Authority, structure, leadership, stability, discipline.",
+      "reversed": "Control issues, rigidity, domination, stubbornness.",
+      "description": "The Emperor represents order, responsibility, and strong foundations."
+    },
+    {
+      "name": "The Hierophant",
+      "number": "5",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "upright": "Tradition, spiritual wisdom, guidance, learning, conformity.",
+      "reversed": "Rebellion, unconventional thinking, personal beliefs, challenging traditions.",
+      "description": "The Hierophant reflects established systems, teachings, and shared beliefs."
+    },
+    {
+      "name": "The Lovers",
+      "number": "6",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "upright": "Love, harmony, partnership, alignment, meaningful choices.",
+      "reversed": "Disharmony, imbalance, conflict, separation, difficult decisions.",
+      "description": "The Lovers signify deep connections and choices aligned with personal values."
+    },
+    {
+      "name": "The Chariot",
+      "number": "7",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "upright": "Determination, willpower, success, ambition, self-control.",
+      "reversed": "Lack of direction, aggression, self-doubt, setbacks, loss of control.",
+      "description": "The Chariot symbolizes moving forward through focus, discipline, and perseverance."
+    },
+    {
+      "name": "Strength",
+      "number": "8",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "upright": "Courage, resilience, patience, compassion, inner strength.",
+      "reversed": "Self-doubt, insecurity, weakness, lack of confidence, fear.",
+      "description": "Strength reflects mastering challenges through calm confidence rather than force."
+    },
+    {
+      "name": "The Hermit",
+      "number": "9",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "upright": "Introspection, solitude, wisdom, self-discovery, reflection.",
+      "reversed": "Isolation, loneliness, withdrawal, avoidance, disconnection.",
+      "description": "The Hermit encourages looking inward for guidance, truth, and personal understanding."
+    },
+    {
+      "name": "Wheel of Fortune",
+      "number": "10",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "upright": "Luck, destiny, cycles, change, opportunity.",
+      "reversed": "Bad luck, resistance to change, delays, setbacks.",
+      "description": "The Wheel of Fortune reminds us that life is constantly changing and evolving."
+    },
+    {
+      "name": "Justice",
+      "number": "11",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "upright": "Fairness, truth, accountability, balance, integrity.",
+      "reversed": "Dishonesty, unfairness, avoidance of responsibility, imbalance.",
+      "description": "Justice emphasizes consequences, honesty, and objective decision-making."
+    },
+    {
+      "name": "The Hanged Man",
+      "number": "12",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "upright": "Perspective, surrender, patience, letting go, insight.",
+      "reversed": "Resistance, delay, indecision, stagnation.",
+      "description": "The Hanged Man invites a new perspective and acceptance of what cannot be controlled."
+    },
+    {
+      "name": "Death",
+      "number": "13",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "upright": "Transformation, endings, renewal, transition, release.",
+      "reversed": "Fear of change, stagnation, resistance, clinging to the past.",
+      "description": "Death symbolizes necessary endings that make way for growth and new beginnings."
+    },
+    {
+      "name": "Temperance",
+      "number": "14",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "upright": "Balance, moderation, patience, harmony, purpose.",
+      "reversed": "Excess, imbalance, impatience, extremes.",
+      "description": "Temperance encourages blending different aspects of life into harmony."
+    },
+    {
+      "name": "The Devil",
+      "number": "15",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "upright": "Attachment, temptation, materialism, unhealthy patterns, limitation.",
+      "reversed": "Breaking free, liberation, reclaiming power, overcoming addiction.",
+      "description": "The Devil highlights self-imposed restrictions and unhealthy attachments."
+    },
+    {
+      "name": "The Tower",
+      "number": "16",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "upright": "Sudden change, upheaval, revelation, awakening, disruption.",
+      "reversed": "Avoiding disaster, delayed change, fear of transformation.",
+      "description": "The Tower represents the collapse of false foundations and necessary breakthroughs."
+    },
+    {
+      "name": "The Star",
+      "number": "17",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "upright": "Hope, inspiration, healing, faith, renewal.",
+      "reversed": "Discouragement, doubt, lack of faith, pessimism.",
+      "description": "The Star brings optimism and reassurance after difficult times."
+    },
+    {
+      "name": "The Moon",
+      "number": "18",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "upright": "Intuition, illusion, dreams, uncertainty, mystery.",
+      "reversed": "Clarity, truth revealed, overcoming fear, understanding.",
+      "description": "The Moon explores the hidden aspects of the subconscious and emotions."
+    },
+    {
+      "name": "The Sun",
+      "number": "19",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "upright": "Joy, success, positivity, vitality, confidence.",
+      "reversed": "Temporary setbacks, unrealistic expectations, delayed happiness.",
+      "description": "The Sun radiates warmth, clarity, and positive outcomes."
+    },
+    {
+      "name": "Judgement",
+      "number": "20",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "upright": "Awakening, reflection, redemption, purpose, self-evaluation.",
+      "reversed": "Self-doubt, denial, avoidance, unwillingness to change.",
+      "description": "Judgement encourages honest reflection and embracing personal growth."
+    },
+    {
+      "name": "The World",
+      "number": "21",
+      "arcana": "Major Arcana",
+      "suit": null,
+      "upright": "Completion, accomplishment, fulfillment, success, wholeness.",
+      "reversed": "Incomplete goals, delays, lack of closure, stagnation.",
+      "description": "The World signifies the successful completion of a cycle and readiness for the next."
+    },
+    {
+      "name": "Ace of Cups",
+      "number": "1",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "upright": "New love, emotional beginnings, compassion, creativity, openness.",
+      "reversed": "Blocked emotions, emptiness, emotional overwhelm, self-love needed.",
+      "description": "The Ace of Cups represents fresh emotional energy and the opening of the heart."
+    },
+    {
+      "name": "Two of Cups",
+      "number": "2",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "upright": "Partnership, mutual attraction, harmony, connection, agreement.",
+      "reversed": "Imbalance, separation, miscommunication, unequal feelings.",
+      "description": "The Two of Cups symbolizes emotional union, trust, and reciprocal connection."
+    },
+    {
+      "name": "Three of Cups",
+      "number": "3",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "upright": "Friendship, celebration, community, support, joy.",
+      "reversed": "Overindulgence, gossip, isolation, social tension.",
+      "description": "The Three of Cups highlights shared happiness, supportive bonds, and celebration."
+    },
+    {
+      "name": "Four of Cups",
+      "number": "4",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "upright": "Apathy, contemplation, reevaluation, emotional withdrawal.",
+      "reversed": "New awareness, renewed interest, acceptance, moving forward.",
+      "description": "The Four of Cups suggests pausing to reassess what truly fulfills you."
+    },
+    {
+      "name": "Five of Cups",
+      "number": "5",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "upright": "Loss, regret, grief, disappointment, focusing on what is gone.",
+      "reversed": "Acceptance, forgiveness, healing, seeing what remains.",
+      "description": "The Five of Cups reflects emotional pain while reminding you that not all is lost."
+    },
+    {
+      "name": "Six of Cups",
+      "number": "6",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "upright": "Nostalgia, childhood memories, innocence, kindness, reunion.",
+      "reversed": "Living in the past, unrealistic memories, emotional immaturity.",
+      "description": "The Six of Cups points to tenderness, memory, and the comfort of familiar connections."
+    },
+    {
+      "name": "Seven of Cups",
+      "number": "7",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "upright": "Choices, fantasy, imagination, possibilities, wishful thinking.",
+      "reversed": "Clarity, focus, realistic decisions, avoiding illusion.",
+      "description": "The Seven of Cups represents many options and the need to separate dreams from reality."
+    },
+    {
+      "name": "Eight of Cups",
+      "number": "8",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "upright": "Walking away, emotional growth, searching for deeper meaning.",
+      "reversed": "Fear of leaving, avoidance, stagnation, returning to old patterns.",
+      "description": "The Eight of Cups shows the courage to leave behind what no longer fulfills you."
+    },
+    {
+      "name": "Nine of Cups",
+      "number": "9",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "upright": "Contentment, satisfaction, wishes fulfilled, emotional pleasure.",
+      "reversed": "Dissatisfaction, greed, shallow happiness, unmet desires.",
+      "description": "The Nine of Cups represents personal fulfillment and enjoying emotional rewards."
+    },
+    {
+      "name": "Ten of Cups",
+      "number": "10",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "upright": "Happiness, family harmony, emotional fulfillment, lasting joy.",
+      "reversed": "Family conflict, broken harmony, unrealistic expectations.",
+      "description": "The Ten of Cups symbolizes deep emotional security and shared happiness."
+    },
+    {
+      "name": "Page of Cups",
+      "number": "11",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "upright": "Creative messages, curiosity, sensitivity, emotional openness.",
+      "reversed": "Emotional immaturity, insecurity, creative block, unrealistic feelings.",
+      "description": "The Page of Cups brings gentle emotional expression and imaginative possibilities."
+    },
+    {
+      "name": "Knight of Cups",
+      "number": "12",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "upright": "Romance, charm, idealism, following the heart, emotional pursuit.",
+      "reversed": "Moodiness, jealousy, unrealistic romance, empty promises.",
+      "description": "The Knight of Cups represents emotional movement, romantic gestures, and creative pursuit."
+    },
+    {
+      "name": "Queen of Cups",
+      "number": "13",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "upright": "Compassion, intuition, emotional maturity, nurturing, empathy.",
+      "reversed": "Emotional overwhelm, codependency, insecurity, poor boundaries.",
+      "description": "The Queen of Cups embodies deep emotional wisdom and compassionate care."
+    },
+    {
+      "name": "King of Cups",
+      "number": "14",
+      "arcana": "Minor Arcana",
+      "suit": "Cups",
+      "upright": "Emotional balance, wisdom, diplomacy, compassion, calm leadership.",
+      "reversed": "Emotional manipulation, repression, moodiness, instability.",
+      "description": "The King of Cups represents emotional control, maturity, and steady compassion."
+    },
+    {
+      "name": "Ace of Swords",
+      "number": "1",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "upright": "Clarity, truth, breakthrough, new ideas, mental focus.",
+      "reversed": "Confusion, miscommunication, mental blocks, distorted truth.",
+      "description": "The Ace of Swords signals a powerful moment of insight and clear thinking."
+    },
+    {
+      "name": "Two of Swords",
+      "number": "2",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "upright": "Indecision, difficult choices, avoidance, emotional stalemate.",
+      "reversed": "Confusion lifting, decision made, facing the truth.",
+      "description": "The Two of Swords shows a blocked decision that requires honesty and clarity."
+    },
+    {
+      "name": "Three of Swords",
+      "number": "3",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "upright": "Heartbreak, sorrow, betrayal, grief, painful truth.",
+      "reversed": "Healing, forgiveness, recovery, releasing pain.",
+      "description": "The Three of Swords represents emotional pain and the process of confronting it."
+    },
+    {
+      "name": "Four of Swords",
+      "number": "4",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "upright": "Rest, recovery, contemplation, mental pause, healing.",
+      "reversed": "Burnout, restlessness, exhaustion, returning too soon.",
+      "description": "The Four of Swords advises stepping back to recover your energy and perspective."
+    },
+    {
+      "name": "Five of Swords",
+      "number": "5",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "upright": "Conflict, tension, winning at a cost, betrayal, ego battles.",
+      "reversed": "Reconciliation, making amends, moving past conflict.",
+      "description": "The Five of Swords highlights the cost of conflict and the need to choose battles wisely."
+    },
+    {
+      "name": "Six of Swords",
+      "number": "6",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "upright": "Transition, moving on, healing journey, leaving difficulty behind.",
+      "reversed": "Resistance to change, emotional baggage, unfinished business.",
+      "description": "The Six of Swords represents moving toward calmer waters after hardship."
+    },
+    {
+      "name": "Seven of Swords",
+      "number": "7",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "upright": "Strategy, secrecy, deception, independence, careful planning.",
+      "reversed": "Coming clean, exposure, self-deception, changing tactics.",
+      "description": "The Seven of Swords points to hidden motives, strategy, or the need for caution."
+    },
+    {
+      "name": "Eight of Swords",
+      "number": "8",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "upright": "Restriction, self-doubt, feeling trapped, limiting beliefs.",
+      "reversed": "Freedom, new perspective, release, empowerment.",
+      "description": "The Eight of Swords shows that perceived limitations may be stronger than real ones."
+    },
+    {
+      "name": "Nine of Swords",
+      "number": "9",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "upright": "Anxiety, worry, nightmares, guilt, mental distress.",
+      "reversed": "Hope, release, recovery, seeking support.",
+      "description": "The Nine of Swords reflects inner fear and the burden of overthinking."
+    },
+    {
+      "name": "Ten of Swords",
+      "number": "10",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "upright": "Painful ending, betrayal, rock bottom, finality, defeat.",
+      "reversed": "Recovery, survival, regeneration, lessons learned.",
+      "description": "The Ten of Swords marks a difficult ending that clears space for renewal."
+    },
+    {
+      "name": "Page of Swords",
+      "number": "11",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "upright": "Curiosity, ideas, communication, vigilance, learning.",
+      "reversed": "Gossip, defensiveness, scattered thoughts, hasty words.",
+      "description": "The Page of Swords represents mental curiosity and the urge to seek truth."
+    },
+    {
+      "name": "Knight of Swords",
+      "number": "12",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "upright": "Ambition, fast action, determination, direct communication.",
+      "reversed": "Impulsiveness, aggression, recklessness, rushing in.",
+      "description": "The Knight of Swords charges forward with intensity and mental drive."
+    },
+    {
+      "name": "Queen of Swords",
+      "number": "13",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "upright": "Independence, honesty, clear boundaries, intelligence, perception.",
+      "reversed": "Coldness, bitterness, harsh judgment, emotional distance.",
+      "description": "The Queen of Swords represents clear thinking, truth, and strong personal boundaries."
+    },
+    {
+      "name": "King of Swords",
+      "number": "14",
+      "arcana": "Minor Arcana",
+      "suit": "Swords",
+      "upright": "Authority, logic, truth, discipline, intellectual power.",
+      "reversed": "Abuse of power, manipulation, cruelty, rigid thinking.",
+      "description": "The King of Swords symbolizes rational leadership and principled decision-making."
+    },
+    {
+      "name": "Ace of Wands",
+      "number": "1",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "upright": "Inspiration, new passion, creative spark, potential, energy.",
+      "reversed": "Delays, lack of motivation, creative block, missed opportunity.",
+      "description": "The Ace of Wands represents the first spark of passion, creativity, or action."
+    },
+    {
+      "name": "Two of Wands",
+      "number": "2",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "upright": "Planning, future vision, personal power, discovery, decisions.",
+      "reversed": "Fear of change, lack of planning, playing small, delays.",
+      "description": "The Two of Wands shows a moment of looking ahead and choosing your next direction."
+    },
+    {
+      "name": "Three of Wands",
+      "number": "3",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "upright": "Expansion, progress, foresight, opportunity, growth.",
+      "reversed": "Delays, limited vision, obstacles, frustration.",
+      "description": "The Three of Wands represents progress and waiting for your efforts to unfold."
+    },
+    {
+      "name": "Four of Wands",
+      "number": "4",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "upright": "Celebration, stability, home, community, joyful milestones.",
+      "reversed": "Instability, conflict at home, delayed celebration, tension.",
+      "description": "The Four of Wands symbolizes harmony, belonging, and shared achievement."
+    },
+    {
+      "name": "Five of Wands",
+      "number": "5",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "upright": "Competition, conflict, tension, challenge, differing opinions.",
+      "reversed": "Avoiding conflict, resolution, inner tension, compromise.",
+      "description": "The Five of Wands reflects friction that can push growth if handled constructively."
+    },
+    {
+      "name": "Six of Wands",
+      "number": "6",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "upright": "Victory, recognition, confidence, success, public praise.",
+      "reversed": "Ego, lack of recognition, self-doubt, private achievement.",
+      "description": "The Six of Wands represents success, visibility, and hard-earned recognition."
+    },
+    {
+      "name": "Seven of Wands",
+      "number": "7",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "upright": "Defensiveness, perseverance, standing your ground, courage.",
+      "reversed": "Giving up, overwhelm, vulnerability, feeling attacked.",
+      "description": "The Seven of Wands shows the need to protect your position and defend your progress."
+    },
+    {
+      "name": "Eight of Wands",
+      "number": "8",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "upright": "Speed, momentum, communication, travel, rapid progress.",
+      "reversed": "Delays, frustration, miscommunication, scattered energy.",
+      "description": "The Eight of Wands signals fast movement and events unfolding quickly."
+    },
+    {
+      "name": "Nine of Wands",
+      "number": "9",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "upright": "Resilience, persistence, boundaries, endurance, caution.",
+      "reversed": "Exhaustion, defensiveness, paranoia, giving up.",
+      "description": "The Nine of Wands represents strength after struggle and the will to keep going."
+    },
+    {
+      "name": "Ten of Wands",
+      "number": "10",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "upright": "Burden, responsibility, hard work, stress, carrying too much.",
+      "reversed": "Release, delegation, burnout, lightening the load.",
+      "description": "The Ten of Wands shows the weight of responsibility and the need to manage your energy."
+    },
+    {
+      "name": "Page of Wands",
+      "number": "11",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "upright": "Exploration, enthusiasm, creative ideas, curiosity, adventure.",
+      "reversed": "Lack of direction, impatience, immaturity, scattered inspiration.",
+      "description": "The Page of Wands brings youthful passion, discovery, and creative excitement."
+    },
+    {
+      "name": "Knight of Wands",
+      "number": "12",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "upright": "Action, passion, confidence, adventure, bold movement.",
+      "reversed": "Recklessness, impulsiveness, frustration, inconsistency.",
+      "description": "The Knight of Wands represents fiery momentum and the courage to act."
+    },
+    {
+      "name": "Queen of Wands",
+      "number": "13",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "upright": "Confidence, charisma, independence, warmth, determination.",
+      "reversed": "Insecurity, jealousy, demanding energy, self-doubt.",
+      "description": "The Queen of Wands embodies magnetic confidence and creative self-expression."
+    },
+    {
+      "name": "King of Wands",
+      "number": "14",
+      "arcana": "Minor Arcana",
+      "suit": "Wands",
+      "upright": "Leadership, vision, confidence, entrepreneurship, boldness.",
+      "reversed": "Impulsiveness, arrogance, controlling behavior, unrealistic expectations.",
+      "description": "The King of Wands represents visionary leadership and decisive action."
+    },
+    {
+      "name": "Ace of Pentacles",
+      "number": "1",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "upright": "New opportunity, prosperity, stability, manifestation, material potential.",
+      "reversed": "Missed opportunity, financial delay, instability, poor planning.",
+      "description": "The Ace of Pentacles represents the seed of abundance, security, and practical growth."
+    },
+    {
+      "name": "Two of Pentacles",
+      "number": "2",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "upright": "Balance, adaptability, priorities, time management, flexibility.",
+      "reversed": "Overwhelm, imbalance, disorganization, poor priorities.",
+      "description": "The Two of Pentacles reflects juggling responsibilities and maintaining balance."
+    },
+    {
+      "name": "Three of Pentacles",
+      "number": "3",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "upright": "Teamwork, skill, collaboration, learning, craftsmanship.",
+      "reversed": "Poor teamwork, lack of effort, misalignment, low-quality work.",
+      "description": "The Three of Pentacles highlights collaboration, shared effort, and developing expertise."
+    },
+    {
+      "name": "Four of Pentacles",
+      "number": "4",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "upright": "Security, saving, control, stability, protecting resources.",
+      "reversed": "Greed, scarcity mindset, overspending, letting go.",
+      "description": "The Four of Pentacles shows attachment to security and the need to balance control with openness."
+    },
+    {
+      "name": "Five of Pentacles",
+      "number": "5",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "upright": "Hardship, financial struggle, insecurity, isolation, lack.",
+      "reversed": "Recovery, support, improvement, finding help.",
+      "description": "The Five of Pentacles reflects difficulty while reminding you that support may be available."
+    },
+    {
+      "name": "Six of Pentacles",
+      "number": "6",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "upright": "Generosity, giving, receiving, fairness, support.",
+      "reversed": "Unequal exchange, strings attached, debt, imbalance.",
+      "description": "The Six of Pentacles represents generosity, reciprocity, and balanced support."
+    },
+    {
+      "name": "Seven of Pentacles",
+      "number": "7",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "upright": "Patience, investment, long-term growth, evaluation, persistence.",
+      "reversed": "Impatience, poor results, wasted effort, lack of reward.",
+      "description": "The Seven of Pentacles encourages patience while assessing what your efforts are producing."
+    },
+    {
+      "name": "Eight of Pentacles",
+      "number": "8",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "upright": "Skill-building, dedication, craftsmanship, hard work, mastery.",
+      "reversed": "Perfectionism, lack of focus, repetitive work, low effort.",
+      "description": "The Eight of Pentacles represents committed practice and steady improvement."
+    },
+    {
+      "name": "Nine of Pentacles",
+      "number": "9",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "upright": "Independence, luxury, self-sufficiency, discipline, success.",
+      "reversed": "Overdependence, overspending, insecurity, false success.",
+      "description": "The Nine of Pentacles symbolizes earned comfort, confidence, and personal achievement."
+    },
+    {
+      "name": "Ten of Pentacles",
+      "number": "10",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "upright": "Legacy, wealth, family, long-term security, tradition.",
+      "reversed": "Family disputes, instability, financial loss, short-term thinking.",
+      "description": "The Ten of Pentacles represents lasting stability, inheritance, and shared prosperity."
+    },
+    {
+      "name": "Page of Pentacles",
+      "number": "11",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "upright": "Learning, ambition, study, practical opportunity, manifestation.",
+      "reversed": "Lack of progress, procrastination, poor planning, missed chances.",
+      "description": "The Page of Pentacles brings grounded curiosity and the desire to build something real."
+    },
+    {
+      "name": "Knight of Pentacles",
+      "number": "12",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "upright": "Hard work, routine, reliability, patience, responsibility.",
+      "reversed": "Stagnation, stubbornness, laziness, perfectionism.",
+      "description": "The Knight of Pentacles represents steady progress, discipline, and commitment."
+    },
+    {
+      "name": "Queen of Pentacles",
+      "number": "13",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "upright": "Nurturing, practicality, comfort, abundance, resourcefulness.",
+      "reversed": "Work-life imbalance, insecurity, neglect, overgiving.",
+      "description": "The Queen of Pentacles embodies grounded care, stability, and practical support."
+    },
+    {
+      "name": "King of Pentacles",
+      "number": "14",
+      "arcana": "Minor Arcana",
+      "suit": "Pentacles",
+      "upright": "Wealth, stability, leadership, discipline, material success.",
+      "reversed": "Greed, stubbornness, corruption, obsession with status.",
+      "description": "The King of Pentacles represents mastery over material resources and long-term security."
+    }
+  ]
+}
