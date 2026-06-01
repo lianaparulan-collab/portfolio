@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Raleway:wght@300;400&display=swap');
 
-/* ── Reset & Base ── */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -21,7 +20,6 @@ body {
   cursor: default;
 }
 
-/* Subtle star field */
 body::before {
   content: '';
   position: fixed;
@@ -41,7 +39,6 @@ body::before {
   z-index: 0;
 }
 
-/* ── Header ── */
 header {
   position: relative;
   z-index: 1;
@@ -82,7 +79,6 @@ header p {
   margin: 0 auto;
 }
 
-/* Thin divider line below header */
 header::after {
   content: '';
   display: block;
