@@ -8,7 +8,7 @@ https://github.com/metabismuth/tarot-json
 Licensed under the MIT License.
 I used this merely for the images of the cards. 
 
-Backgrounds and other images were sourced primarily from https://unsplash.com/
+Backgrounds and other images were sourced primarily from https://unsplash.com/ - free images and pictures
 
 Use of AI:
 
